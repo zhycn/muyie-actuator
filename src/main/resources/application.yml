@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: muyie-actuator
+  profiles:
+    active:
+    - dev
+server:
+  port: 8281
+  compression:
+    enabled: true
+  error:
+    whitelabel:
+      enabled: false

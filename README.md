@@ -1,2 +1,3 @@
 # muyie-actuator
-MuYie Actuator based on Spring Boot Admin.
+
+MuYie Actuator to manage and monitor your Spring Boot, using Spring Cloud Discovery.
