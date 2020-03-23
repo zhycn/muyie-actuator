@@ -1,6 +1,6 @@
 # Registering Client Applications
 
-本文基本 Spring Boot 来快速搭建 Admin Server。首先，在 Spring Boot 项目中添加 Maven 依赖：
+本文基本 Spring Boot 来快速搭建 Admin Client。首先，在 Spring Boot 项目中添加 Maven 依赖：
 
 ```
 <!-- Spring Cloud Netflix Eureka 注册中心客户端 -->
