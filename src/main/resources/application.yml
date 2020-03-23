@@ -3,7 +3,8 @@ spring:
     name: muyie-actuator
   profiles:
     active:
-    - dev
+    - zone
+    - console
 server:
   port: 8281
   compression:

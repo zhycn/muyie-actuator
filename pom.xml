@@ -7,12 +7,12 @@
     <version>1.0.0-SNAPSHOT</version>
     <name>MuYie Actuator</name>
     <description>MuYie Actuator to manage and monitor your Spring Boot, using Spring Cloud Discovery.</description>
-    <url>https://github.com/zhycn/muyie-registry/</url>
+    <url>https://github.com/zhycn/muyie-actuator/</url>
 
     <parent>
         <groupId>com.github.zhycn</groupId>
         <artifactId>muyie-dependencies</artifactId>
-        <version>1.0.5</version>
+        <version>1.0.6</version>
         <relativePath />
     </parent>
 
@@ -24,12 +24,10 @@
         <dependency>
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-starter-server</artifactId>
-            <version>2.2.2</version>
         </dependency>
         <dependency>
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-server-ui</artifactId>
-            <version>2.2.2</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
