@@ -6,11 +6,11 @@
 <!-- Spring Cloud Netflix Eureka 注册中心客户端 -->
 <!-- 基于 Spring Cloud 注册中心的好处是：在该体系架构中，Admin Clients 可以实现零配置 -->
 <dependency>
-	<groupId>org.springframework.cloud</groupId>
-	<artifactId>spring-cloud-dependencies</artifactId>
-	<version>${spring-cloud.version}</version>
-	<type>pom</type>
-	<scope>import</scope>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-dependencies</artifactId>
+  <version>${spring-cloud.version}</version>
+  <type>pom</type>
+  <scope>import</scope>
 </dependency>
 <dependency>
 	<groupId>org.springframework.cloud</groupId>
@@ -19,18 +19,22 @@
 
 <!-- Admin Server -->
 <dependency>
-    <groupId>de.codecentric</groupId>
-    <artifactId>spring-boot-admin-starter-server</artifactId>
-    <version>2.2.2</version>
+  <groupId>de.codecentric</groupId>
+  <artifactId>spring-boot-admin-starter-server</artifactId>
+  <version>2.2.2</version>
 </dependency>
 <dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-web</artifactId>
+  <groupId>de.codecentric</groupId>
+  <artifactId>spring-boot-admin-server-ui</artifactId>
+  <version>2.2.2</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-web</artifactId>
 </dependency>
 ```
 
 然后，在启动类上添加 @EnableAdminServer 注解类：
-
 
 ```
 @SpringBootApplication
@@ -63,7 +67,8 @@ eureka:
 > 支持单机模式、集群模式和多节点高可用模式，配置参考：[Service Discovery: Eureka Clients](https://github.com/zhycn/muyie-registry/blob/feature/docs/Eureka-Client.md)
 
 ```
-<!-- 示例为多节点高可用模式 -->
+# application.yml
+# 示例为多节点高可用模式
 eureka:
   client:
     region: cn-shanghai-1
@@ -73,4 +78,3 @@ eureka:
     availability-zones:
       cn-shanghai-1: zone1,zone2
 ```
-
