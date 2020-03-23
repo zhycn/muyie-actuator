@@ -1,6 +1,6 @@
 spring:
   application:
-    name: muyie-actuator
+    name: muyie-actuator1
   profiles:
     active:
     - zone

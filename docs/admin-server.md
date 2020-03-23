@@ -6,31 +6,31 @@
 <!-- Spring Cloud Netflix Eureka 注册中心客户端 -->
 <!-- 基于 Spring Cloud 注册中心的好处是：在该体系架构中，Admin Clients 可以实现零配置 -->
 <dependency>
-  <groupId>org.springframework.cloud</groupId>
-  <artifactId>spring-cloud-dependencies</artifactId>
-  <version>${spring-cloud.version}</version>
-  <type>pom</type>
-  <scope>import</scope>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-dependencies</artifactId>
+    <version>${spring-cloud.version}</version>
+    <type>pom</type>
+    <scope>import</scope>
 </dependency>
 <dependency>
-	<groupId>org.springframework.cloud</groupId>
-	<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 </dependency>
 
 <!-- Admin Server -->
 <dependency>
-  <groupId>de.codecentric</groupId>
-  <artifactId>spring-boot-admin-starter-server</artifactId>
-  <version>2.2.2</version>
+    <groupId>de.codecentric</groupId>
+    <artifactId>spring-boot-admin-starter-server</artifactId>
+    <version>2.2.2</version>
 </dependency>
 <dependency>
-  <groupId>de.codecentric</groupId>
-  <artifactId>spring-boot-admin-server-ui</artifactId>
-  <version>2.2.2</version>
+    <groupId>de.codecentric</groupId>
+    <artifactId>spring-boot-admin-server-ui</artifactId>
+    <version>2.2.2</version>
 </dependency>
 <dependency>
-  <groupId>org.springframework.boot</groupId>
-  <artifactId>spring-boot-starter-web</artifactId>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
 </dependency>
 ```
 
